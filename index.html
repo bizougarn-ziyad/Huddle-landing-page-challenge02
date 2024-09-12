@@ -2,37 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <title>Huddle landing page</title>
 </head>
 <body>
-  Try it free
+  <nav class="navbar">
+    <div class="logo">
+      <img class="logo_icon" src="images/logo.svg">
+    </div>
+    <div class="try_now_button">
+      <button class="button">Try It Free</button>
+    </div>
+  </nav>
+  <section class="home_page">
+    <div class="infos">
+      <h1 class="title">
+        Build The Community Your Fans Will Love
+      </h1>
+      <p class="description">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button class="get-started-button"> Get Started For Free</button>
+    </div>
+    <div class="images">
+      <img class="screen_image" src="images/screen-mockups.svg">
+    </div>
+    <div class="followers">
+      <div>
+        <img class="communities-icon" src="images/icon-communities.svg" alt="">
+        <p class="views">
+        1.4k+
+      </p>
+        <p class="views-title">
+          Communities Formed
+        </p>
+        </div>
+      <div>
+        <img class="messages-icon" src="images/icon-messages.svg" alt=""> 
+        <p class="views">
+        2.7m+
+        </p>
+        <p class="views-title">
+          Messages Sent
+        </p>
+      </div>
+    </div>
+  </section>
+<section class="grow-together">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="hsl(207, 100%, 98%)" fill-opacity="1" d="M0,96L40,122.7C80,149,160,203,240,197.3C320,192,400,128,480,138.7C560,149,640,235,720,234.7C800,235,880,149,960,128C1040,107,1120,149,1200,165.3C1280,181,1360,171,1400,165.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="grow-paragraph">
+      <h1 class="grow-title">
+        Grow Together
+      </h1>
+      <p class="grow-description">
+        Generate meaningful discussions with your audience and build a strong, loyal community. 
+        Think of the insightful conversations you miss out on with a feedback form. 
+      </p>
+    </div>
+    <div class="grow-image">
+    <img class="grow-illu" src="images/illustration-grow-together.svg">
+    </div>
+  </div>
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="hsl(207, 100%, 98%)" fill-opacity="1" d="M0,64L40,53.3C80,43,160,21,240,42.7C320,64,400,128,480,149.3C560,171,640,149,720,133.3C800,117,880,107,960,117.3C1040,128,1120,160,1200,165.3C1280,171,1360,149,1400,138.7L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+  </div>
+</section>
+  
 
-  Build The Community Your Fans Will Love
+  
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+ 
 
-  Get Started For Free
+  
 
-  1.4k+
-  Communities Formed
+  
 
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+ 
+ 
 
   Flowing Conversations
   You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
@@ -60,7 +119,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Bizougarn ziyad</a>.
     </p>
   </footer>
 </body>
